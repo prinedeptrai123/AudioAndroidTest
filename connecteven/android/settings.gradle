@@ -1,0 +1,5 @@
+rootProject.name = 'connecteven'
+include ':react-native-events'
+project(':react-native-events').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-events/android')
+
+include ':app'
